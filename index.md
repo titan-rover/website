@@ -1,6 +1,8 @@
-![image](https://user-images.githubusercontent.com/61986930/173765827-b047cd6b-02cd-4f7d-bd08-18ca61651776.png)
 
-## Welcome to GitHub Pages
+
+## Welcome to Titan Rover
+
+![image](https://user-images.githubusercontent.com/61986930/173765827-b047cd6b-02cd-4f7d-bd08-18ca61651776.png)
 
 You can use the [editor on GitHub](https://github.com/titan-rover/2022-3_Rover_Code_Base/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
