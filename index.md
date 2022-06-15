@@ -1,6 +1,5 @@
 https://user-images.githubusercontent.com/61986930/173752577-db18484f-253b-4a7e-9811-9aff7d09e106.png
 
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/titan-rover/2022-3_Rover_Code_Base/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
