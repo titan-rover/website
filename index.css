@@ -1,0 +1,149 @@
+html, body {
+	margin: 0px;
+}
+
+/* class that will center things */
+.img-center{
+	display: flex;
+	justify-content: center;
+}
+
+/* homepage  */
+#homepage{
+	background-color: black;
+}
+
+
+#nav-bar{
+	display: flex;
+	background-color: #212226;
+	padding: 1rem 0px;
+}
+
+.nav-bar-container img{
+	margin-left: 18%;
+	margin-right: 10%;
+	max-width: 14%;
+	height: auto;
+}
+
+.nav-bar-container {
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+	margin-right: 15%;
+}
+.nav-bar-container a {
+	color: white;
+	font-weight: bold;
+	font-size: 0.95rem;
+	text-decoration: none;
+
+}
+
+.nav-bar-container a:hover{
+	color: #FF8F00;
+	transition-timing-function: ease-in;
+	transition-delay: 150ms;
+}
+
+
+.content {
+	height: 100vh;
+}
+
+.content-container {
+	display: flex;
+	justify-content: center;
+	margin: 0.5em 0px;
+	margin-bottom: 0px;
+}
+.content-text {
+	display: flex;
+	justify-content: center;
+	font-size: 3.5rem;
+	color: #ea7244;
+	margin: 0px;
+}
+
+.content-text p{
+	margin: 0px;
+
+}
+
+.content-text2 {
+	/*font-size: 2rem;*/
+	color: #ff8f00;
+	margin: 0px 10%;
+	line-height: 2;
+	text-align: center;
+}
+
+#video {
+	/*border: 2px green solid;*/
+	border: 0px;
+	width: 100%;
+}
+
+
+/* alumni */
+
+#alumni{
+	background-color: white;
+}
+
+.alumni-header {
+	text-align: center;
+	color: #ff8f00;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.alumni-header p {
+	margin: 2rem;
+
+}
+
+.team-container {
+	text-align: center;
+}
+
+
+.team-header {
+	font-size: 2rem;
+	color: #ff8f00;
+	font-weight: bold;
+}
+
+.team-img {
+	display: flex;
+	justify-content: center;
+}
+
+.team-img img {
+	width: 75%;
+}
+
+.caption {
+	margin: 1rem 12.5%;
+	text-align: left;
+}
+
+.members-container {
+	margin: 2rem 12.5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.members-row {
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.members-col {
+	width: 100%;
+	text-align: left;
+	font-size: 1.1rem;
+}
