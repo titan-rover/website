@@ -86,6 +86,27 @@ html, body {
 }
 
 
+
+
+
+/* footer */
+
+.footer-map {
+	position: static;
+	display: flex;
+}
+
+.footer {
+	display: block;
+	position: static;
+	bottom: 0;
+}
+
+
+
+
+
+
 /* alumni */
 
 #alumni{
