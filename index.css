@@ -132,7 +132,7 @@ html, body {
 }
 
 
-.team-header {
+.year-header {
 	font-size: 2rem;
 	color: #ff8f00;
 	font-weight: bold;
@@ -169,4 +169,25 @@ html, body {
 	width: 100%;
 	text-align: left;
 	font-size: 1.1rem;
+}
+
+
+/* Rovers */
+
+.rovers-header {
+	text-align: center;
+	color: #ff8f00;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.rovers-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rover-images{
+	display: flex;
+	justify-content: center;
 }
