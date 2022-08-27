@@ -20,17 +20,19 @@ html, body {
 	padding: 1rem 0px;
 }
 
-.nav-bar-container img{
-	margin-left: 18%;
+#logo{
+	margin-left: 12%;
 	margin-right: 10%;
 	max-width: 14%;
 	height: auto;
 }
 
 .nav-bar-container {
+	flex-wrap: wrap;
 	display: flex; 
 	align-items: center;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
+	gap: 1rem;
 	margin-right: 15%;
 }
 .nav-bar-container a {
