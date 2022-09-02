@@ -1,0 +1,144 @@
+{
+	"year": "2017-2018",
+	"image": "2017-2018-team.jpg",
+	"members": [
+		{
+			"name": "Justin McGregor",
+			"img": "2017-2018/Justin-McGregor.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2018",
+			    "President/Project Lead"
+			]
+		},
+		{
+			"name": "Luis Landy",
+			"img": "2017-2018/Luis-Landy.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Class of 2018",
+			    "Electrical Lead"
+			]
+		},
+		{
+			"name": "Timothy Parks",
+			"img": "2017-2018/Timothy-Parks.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2018",
+			    "ControlsLead"
+			]
+		},
+		{
+			"name": "Frank Gutierrez ",
+			"img": "2017-2018/Frank-Gutierrez.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Mechanical Lead"
+			]
+		},
+		{
+			"name": "Golda McWhorter",
+			"img": "2017-2018/Golda-McWhorter.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Drivetrain Lead"
+			]
+		},
+		{
+			"name": "Todd Yeakly",
+			"img": "2017-2018/Todd-Yeakley.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Robotics Lead"
+			]
+		},
+		{
+			"name": "Chary Vielma",
+			"img": "2017-2018/Chary-Vielma.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2018",
+			    "Mobility Lead"
+			]
+		},
+		{
+			"name": "Erick Guzman",
+			"img": "2017-2018/Erick-Guzman.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Science Engineering Lead"
+			]
+		},
+		{
+			"name": "Mario Cristales",
+			"img": "2017-2018/Mario-Cristales.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Manufacturing/Chassis Lead"
+			]
+		}
+	],
+	"honorable_members": [
+		{
+			"name": "Doug Danielson",
+			"img": "2017-2018/Doug-Danielson.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Member of the Science Mechanical Subteam"
+			]
+		},
+		{
+			"name": "Laura Cruz",
+			"img": "2017-2018/Laura-Cruz.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2019",
+			    "Mobility & Mechanical Science Subteam Member"
+			]
+		},
+		{
+			"name": "Ternel \"TJ\" Enriquez",
+			"img": "2017-2018/TJ-Enriquez.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Member of the Robotics Subteam"
+			]
+		},
+		{
+			"name": "Oscar Sanchez",
+			"img": "2017-2018/Oscar-Sanchez.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Class of 2019",
+			    "Electrical Subteam Member"
+			]
+		},
+		{
+			"name": "Juan Rocha",
+			"img": "2017-2018/Juan-Rocha.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Member of the Drivetrain Subteam"
+			]
+		},
+		{
+			"name": "Darien Morgan",
+			"img": "2017-2018/Darien-Morgan.jpeg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Member of Mechanical & Business Subteam"
+			]
+		}
+	],
+	"caption": "The team pictured in front of the TSU"
+}

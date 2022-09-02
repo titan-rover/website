@@ -1,0 +1,63 @@
+{
+	"year": "2019-2020",
+	"image": "2019-2020-team.jpg",
+	"members": [
+		{
+			"name": "Jose Antelo",
+			"img": "2019-2020/Jose-Antelo.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Minor: Computer Science",
+			    "Class of 2020",
+			    "President/Project Lead"
+			]
+		},
+		{
+			"name": "James Evans",
+			"img": "2019-2020/James-Evans.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2020",
+			    "Science Engineering Lead"
+			]
+		},
+		{
+			"name": "Nicholas Drew",
+			"img": "2019-2020/Nick-Drew.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2020",
+			    "Chassis and Manufacturing Lead"
+			]
+		},
+		{
+			"name": "Gerardo Sandoval",
+			"img": "2019-2020/Gerardo-Sandoval.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2020",
+			    "Robotics Lead"
+			]
+		},
+		{
+			"name": "Mario Castillo",
+			"img": "2019-2020/Mario.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+				"Minor: Business",
+			    "Class of 2020",
+			    "Business Lead"
+			]
+		},
+		{
+			"name": "Chary Vielma",
+			"img": "2019-2020/Chary-Vielma.jpg",
+			"bulletpoints": [
+				"Major: Graduate Computer Scientist",
+			    "Class of 2020",
+			    "Controls Lead"
+			]
+		}
+	],
+	"caption" : "From left to right, Keenan Griffin, Nicholas Drew, Ryan Gauthier, Jose Antelo, James Evans, Gerardo Sandoval, Tony Gindey, Nicholas Villa, Koby Konmo, Daniel Carpio, Brad Matsumoto, Juan Villalobos, Natassya Zamora, Adam Mizban, Jennifer Choi (not pictured)"
+}
