@@ -7,7 +7,7 @@
 import { Link } from "react-router-dom";
 
 // importing css
-import '../css/index.css';
+import '../css/navbar.css';
 
 
 

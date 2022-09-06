@@ -107,7 +107,7 @@ function GenerateYear({alumnis}) {
     <section className="team-container">
       <p className="year-header">{alumnis.year} </p>
       <div className="team-img">
-        <img src={process.env.PUBLIC_URL + "/images/team_photos/" 
+        <img src={"/images/team_photos/" 
                   + alumnis.image} 
               alt={alumnis.year+ " Team"}/>
       </div>
