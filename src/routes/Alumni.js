@@ -142,7 +142,10 @@ function Alumni() {
       alumnis2014
   ];
   return (
-    <GenerateYears yearList={alumniList} />
+    <div>
+      <NavBar />
+      <GenerateYears yearList={alumniList} />
+    </div>
   );
 }
 
