@@ -13,9 +13,7 @@ import alumnis2014 from '../json_files/alumni/alumni-2014.json';
 import NavBar from '../components/Navbar';
 
 // importing css
-import '../css/index.css';
-
-
+import '../css/alumni.css';
 
 
 // component that generates each individual alumni
@@ -144,7 +142,9 @@ function Alumni() {
   return (
     <div>
       <NavBar />
+      <h1>Meet the team</h1>
       <GenerateYears yearList={alumniList} />
+    {/* footer goes here */}
     </div>
   );
 }
