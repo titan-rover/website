@@ -20,7 +20,8 @@ function Homepage() {
           <p>competitor since 2014</p>
         </div>
         <video id="video" autoPlay loop muted >
-          <source src={'/video/Titan-Rover-B-Roll.mp4'} 
+          <source src={process.env.PUBLIC_URL + 
+                      '/videos/Titan-Rover-B-Roll.mp4'} 
                   type="video/mp4" />
           Your browser does not support HTML5 video
         </video>
