@@ -142,7 +142,7 @@ function Alumni() {
   return (
     <div>
       <NavBar />
-      <h1>Meet the team</h1>
+      <h1 className="alumni-header">Meet the team</h1>
       <GenerateYears yearList={alumniList} />
     {/* footer goes here */}
     </div>
