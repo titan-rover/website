@@ -1,0 +1,100 @@
+{
+	"year": "2015-2016",
+	"image": "2015-2016-team.jpg",
+	"members": [
+		{
+			"name": "Brent Fritz",
+			"img": "2015-2016/Brent-Fritz.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "Project Lead"
+			]
+		},
+		{
+			"name": "Justin Kemner",
+			"img": "2015-2016/Justin-Kemner.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "Mechanical Design Lead"
+			]
+		},
+		{
+			"name": "Leo Ortiz",
+			"img": "2015-2016/Leo-Ortiz.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "Lead Systems Engineer"
+			]
+		},
+		{
+			"name": "William Zschoche",
+			"img": "2015-2016/William-Zschoche.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2016",
+			    "Lead Systems Engineer"
+			]
+		},
+		{
+			"name": "Brig Purohit",
+			"img": "2015-2016/Brig-Purohit.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "System Performance Lead"
+			]
+		}
+	],
+	"honorable_members": [
+		{
+			"name": "Priscilla Mewborne",
+			"img": "2015-2016/Priscilla-Mewborne.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "Mechanical Subteam Member"
+			]
+		},
+		{
+			"name": "Justin McGregor",
+			"img": "2015-2016/Justin-McGregor.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Mechanical Subteam Member"
+			]
+		},
+		{
+			"name": "Andrew Huniu",
+			"img": "2015-2016/Andrew-Huniu.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "Member of the Suspension Team"
+			]
+		},
+		{
+			"name": "Jesse Nava",
+			"img": "2015-2016/Jesse-Nava.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2016",
+			    "Mechanical of the Suspension Team"
+			]
+		},
+		{
+			"name": "Nicholas Feenstra",
+			"img": "2015-2016/Nicholas-Feenstra.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "Mechanical Subteam Member"
+			]
+		}
+
+	],
+	"caption": "Team photo with Titan 1 Platform"
+}

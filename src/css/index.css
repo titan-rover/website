@@ -1,0 +1,47 @@
+
+/* class that will center things */
+.img-center{
+	display: flex;
+	justify-content: center;
+}
+
+/* homepage  */
+#homepage{
+	background-color: black;
+
+
+/* footer */
+
+.footer-map {
+	position: static;
+	display: flex;
+}
+
+.footer {
+	display: block;
+	position: static;
+	bottom: 0;
+}
+
+
+
+
+/* Rovers */
+
+.rovers-header {
+	text-align: center;
+	color: #ff8f00;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.rovers-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rover-images{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,15 @@
+{
+	"year": "2014-2015",
+	"image": "2014-2015-team.jpg",
+	"members": [
+		{
+			"name": "Lauren Ducarme",
+			"img": "2014-2015/Lauren-Ducharme.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Robotic Arm"
+			]
+		}
+	],
+	"caption": "Team pictured with a platform prototype"
+}
