@@ -2,9 +2,10 @@
 // Email: khangpham@csu.fullerton.edu
 
 import NavBar from '../components/Navbar';
-
+import SponsorImages from '../json_files/sponsor/sponsor-logo.json';
 
 function Sponsors() {
+	console.log(SponsorImages);
 	return(
 		<div>
 			<NavBar />
