@@ -31,6 +31,14 @@ function Homepage() {
             knowledge by experiential learning while inspiring newer generations about STEM. Being in Titan Rover gives the opportunity for members to better themselves and their skill sets by working together to make a rover intended to compete at the Mars Society’s University Rover Challenge.</h2>
         </div>
 
+        <div className="logo">
+        <img src={process.env.PUBLIC_URL + '/images/CSUF_Titans_Logo.svg-300x300.png'}
+               alt="" />
+        </div>
+        <div className="social-media">
+        <img src={process.env.PUBLIC_URL + '/images/FacebookLogo.png'}
+               alt="" />
+        </div>
       </section>
     </div>
   );

@@ -50,3 +50,15 @@
 	background-color: black;
 }
 
+.logo {
+	display: flex;
+	background-color: #212226;
+	justify-content: right;
+}
+
+.social-media {
+	display: flex;
+	background-color: #212226;
+	justify-content: right;
+	height: 6%;
+}
