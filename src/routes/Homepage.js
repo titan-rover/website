@@ -1,8 +1,5 @@
-// Author: Khang Pham
-// Email: khangpham9999@csu.fullerton.edu
-
 import NavBar from '../components/Navbar';
-
+import SocialMediaComponent from '../components/social-media';
 import '../css/homepage.css'
 
 
@@ -31,6 +28,7 @@ function Homepage() {
             knowledge by experiential learning while inspiring newer generations about STEM. Being in Titan Rover gives the opportunity for members to better themselves and their skill sets by working together to make a rover intended to compete at the Mars Society’s University Rover Challenge.</h2>
         </div>
 
+      <SocialMediaComponent />
       </section>
     </div>
   );
