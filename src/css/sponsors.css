@@ -1,0 +1,14 @@
+
+#sponsor{
+	background-color: white;
+}
+
+
+.sponsors-header {
+	display: flex;
+	justify-content: center;
+}
+
+.sponsors-header img {
+	width: 75%;
+}
