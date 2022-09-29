@@ -9,6 +9,7 @@ import {useState} from "react";
 
 // importing css
 import '../css/slideshow.css';
+import { getSuggestedQuery } from "@testing-library/react";
 
 
 const Slideshow = ({slides}) => {
@@ -22,7 +23,8 @@ const Slideshow = ({slides}) => {
             margin: "0 0"
         },
         arrow: {
-            fontSize: "5rem"
+            fontSize: "2rem",
+            color: "lightgrey"
         }
         }
 
