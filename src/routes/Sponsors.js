@@ -2,18 +2,12 @@
 import NavBar from '../components/Navbar';
 import '../css/sponsors.css'
 
-function Orange({text}){
-	return(
-		<h1 className="orange">{text}</h1>
-	)
-}
 function Sponsors() {
 	return(
 		<div>
 			<NavBar />
 			<body>
-			
-			<center><Orange text={"Sponsors"} /></center>
+			<center><h1 className="orange">{"Sponsors"}</h1></center>
 			
 			<p>
 				<center>
