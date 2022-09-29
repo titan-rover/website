@@ -4,11 +4,11 @@
 }
 
 
+
 .sponsors-header {
 	display: flex;
-	justify-content: center;
-}
+	width: 25%;
+	flex-direction: row;
+	flex: 200px;
 
-.sponsors-header img {
-	width: 75%;
 }

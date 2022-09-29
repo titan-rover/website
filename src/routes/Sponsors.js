@@ -12,7 +12,7 @@ function ImgSpon({sponsors, sAmount})
 	let Sp = sponsors.images;
 	let allImg = Sp.map(SponsorImages => {
 		return(
-			<div className="box">
+			<div>
 				<img src = {process.env.PUBLIC_URL + "/images/sponsors/"
 				 + SponsorImages.img} alt={SponsorImages.name} />
 				
@@ -21,7 +21,7 @@ function ImgSpon({sponsors, sAmount})
 		)
 	}) 
 	return (
-		<div>
+		<div className='sponsors-header'>
 			{allImg}
 		</div>
 		);
@@ -32,8 +32,7 @@ function Sponsors() {
 	return(
 		<div>
 			<NavBar />
-			<p className='sponsors-header'>Sponsors page goes here</p>
-			<ImgSpon sponsors={SponsorImages} className="sponsors-header"/>
+			<ImgSpon sponsors={SponsorImages}/>
 		{/*footer here*/}
 		</div>
 
