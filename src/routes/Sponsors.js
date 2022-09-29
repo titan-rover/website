@@ -1,14 +1,10 @@
-// Author: Khang Pham
-// Email: khangpham@csu.fullerton.edu
 
 import NavBar from '../components/Navbar';
 import '../css/sponsors.css'
 
-function Text({name}){
+function Orange({text}){
 	return(
-		<div>
-		<p className="text">{name}</p>
-		</div>
+		<h1 className="orange">{text}</h1>
 	)
 }
 function Sponsors() {
@@ -16,7 +12,8 @@ function Sponsors() {
 		<div>
 			<NavBar />
 			<body>
-			<h1><center><Text name={"Sponsors"} /></center></h1>
+			
+			<center><Orange text={"Sponsors"} /></center>
 			
 			<p>
 				<center>
