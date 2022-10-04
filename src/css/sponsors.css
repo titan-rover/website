@@ -3,12 +3,18 @@
 	background-color: white;
 }
 
+.sponsor-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.sponsor-item > img{
+	object-fit: scale-down;
+	width: 50%;
+	max-height: 100%;
+}
 
 
 .sponsors-header {
-	display: flex;
-	width: 25%;
-	flex-direction: row;
-	flex: 200px;
-
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 100px;
 }

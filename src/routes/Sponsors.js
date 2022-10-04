@@ -12,7 +12,7 @@ function ImgSpon({sponsors, sAmount})
 	let Sp = sponsors.images;
 	let allImg = Sp.map(SponsorImages => {
 		return(
-			<div>
+			<div className='sponsor-item'>
 				<img src = {process.env.PUBLIC_URL + "/images/sponsors/"
 				 + SponsorImages.img} alt={SponsorImages.name} />
 				
