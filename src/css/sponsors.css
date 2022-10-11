@@ -1,0 +1,27 @@
+
+#sponsor{
+	background-color: white;
+}
+
+/* this is just the border to see what the image outlines are */
+/*.sponsor-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+} */
+.sponsor-item > img{
+	object-fit: scale-down;
+	max-width: 100%;
+	
+} 
+
+
+.sponsors-header {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	row-gap: 5px;
+	column-gap: 10px;
+
+}
