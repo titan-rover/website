@@ -10,9 +10,9 @@ import '../css/sponsors.css';
 function ImgSpon({sponsors, sAmount})
 {
 	let Sp = sponsors.images;
-	let allImg = Sp.map(SponsorImages => {
+	let allImg = Sp.map((SponsorImages, index) => {
 		return(
-			<div className='sponsor-item'>
+			<div key = {index} className='sponsor-item'>
 				<img src = {process.env.PUBLIC_URL + "/images/sponsors/"
 				 + SponsorImages.img} alt={SponsorImages.name} />
 				
