@@ -1,0 +1,10 @@
+{ 
+    "images": [ 
+        "/images/rovers/2020/rover-1.jpg",
+        "/images/rovers/2020/rover-2.jpg",
+        "/images/rovers/2020/rover-3.jpg"
+    ],
+    "video": "https://www.youtube.com/embed/Z_hTkLP6PPs",
+    "team": "Kronos-2020"
+
+}
