@@ -13,7 +13,7 @@ function Homepage() {
       <NavBar />
       <section className="content">
         <div className="content-container">
-          <img src={process.env.PUBLIC_URL + '/images/URClogo.jpg'}
+          <img src={process.env.PUBLIC_URL + '/images/URC/URClogo.jpg'}
                alt="" />
         </div>
         <div className="content-text">

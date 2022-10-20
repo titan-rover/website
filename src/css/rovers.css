@@ -21,12 +21,22 @@
     font-weight: bold;
     color: #ff8f00;
 }
+.slideshow-container-col {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 800px) {
     .slideshow-container {
         flex-direction: column;
+        gap: 2rem;
     }
     .iframes{
         width: 90%;
+    }
+    .slideshow-container-col {
+        width: 100vw;
     }
 }

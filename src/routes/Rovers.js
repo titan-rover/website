@@ -19,25 +19,30 @@ function CreateYear({images, video, team}) {
 				<p >{team}</p>
 			</div>
 			<div className={"slideshow-container"}>
-				<Slideshow slides={images} />
-				{
-					video &&
-					<iframe className={"iframes"}
-							width="560" 
-							height="315" 
-							src={video} 
-							title="YouTube video player" 
-							frameBorder="0" 
-							allow="accelerometer; 
-								   autoplay; 
-								   clipboard-write;
-								   encrypted-media; 
-								   gyroscope; 
-								   picture-in-picture" 
-							allowFullScreen >
-					</iframe>
+				<div className="slideshow-container-col">
+					<Slideshow slides={images} />
+				</div>
+					{
+						video &&
+						<div className="slideshow-container-col">
+							<iframe className={"iframes"}
+									width="560" 
+									height="315" 
+									src={video} 
+									title="YouTube video player" 
+									frameBorder="0" 
+									allow="accelerometer; 
+										   autoplay; 
+										   clipboard-write;
+										   encrypted-media; 
+										   gyroscope; 
+										   picture-in-picture" 
+									allowFullScreen >
+							</iframe>
+						</div>
+						
+					}
 					
-				}
 			</div>
 			
 		</div>
