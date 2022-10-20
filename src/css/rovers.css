@@ -1,0 +1,11 @@
+
+.slideContainer {
+    width: 100vw;
+    height: 300px;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

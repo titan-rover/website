@@ -1,0 +1,9 @@
+.container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    padding: 65px 80px;
+    gap: 16px;
+}
