@@ -3,6 +3,8 @@
 
 import teams from '../json_files/about/teambreakdown.json';
 import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
+
 
 function DisplayTeam({info}) {
 	return (
@@ -34,6 +36,7 @@ function About() {
 			<NavBar />
 			<h1>Subteam Breakdown</h1>
 			<DisplayTeams info={teams.Teams} />
+			<Footer />
 		</div>
 
 	)

@@ -2,6 +2,7 @@
 import NavBar from '../components/Navbar';
 
 import SponsorImages from '../json_files/sponsor/sponsor-logo.json';
+import Footer from '../components/Footer';
 
 import '../css/sponsors.css';
 
@@ -36,7 +37,8 @@ function Sponsors() {
 			<p className="spacing">{'Titan Rover sincerely thanks all of our generous sponsors for their contributions. With increasing costs each year, our sponsors help make our success possible. If you are interested in sponsoring Titan Rover through either financial or gifts-in-kind donations, please contact Titan Rover at '}<a href="mailto:teamrover@titanrover.com">teamrover@titanrover.com</a>{'. Your support makes an impactful difference to our team.'}</p>
 
 			<ImgSpon sponsors={SponsorImages}/>
-		{/*footer here*/}
+			
+			<Footer />
 
 		</div>
 

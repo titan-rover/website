@@ -2,6 +2,8 @@
 // Email: khangpham@csu.fullerton.edu, jcykim@csu.fullerton.edu
 import NavBar from '../components/Navbar';
 import Slideshow from '../components/Slideshow';
+import Footer from '../components/Footer';
+
 import '../css/rovers.css';
 import rover2021 from '../json_files/rover/rover-2021.json';
 import rover2020 from '../json_files/rover/rover-2020.json';
@@ -83,6 +85,7 @@ function Rovers() {
 		<div>
 			<NavBar />
 			<CreateYears years={years}/>
+			<Footer />
 		</div>
 	)
 }

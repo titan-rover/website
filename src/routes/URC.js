@@ -2,12 +2,14 @@
 // Email: khangpham@csu.fullerton.edu
 
 import NavBar from '../components/Navbar';
-import '../css/urc.css';
 import Slideshow from '../components/Slideshow';
+import Footer from '../components/Footer';
 import URC2019 from '../json_files/URC/2019.json';
 import URC2018 from '../json_files/URC/2018.json';
 import URC2017 from '../json_files/URC/2017.json';
 
+
+import '../css/urc.css';
 
 function CreateURCYear({images, year}) {
 	return (
@@ -66,6 +68,7 @@ function URC() {
 			<div>
 				<CreateURCYears years={URCyears} />
 			</div>
+			<Footer />
 		</div>
 	)
 }
