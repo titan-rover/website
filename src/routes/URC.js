@@ -3,8 +3,45 @@
 
 import NavBar from '../components/Navbar';
 import '../css/urc.css';
+import Slideshow from '../components/Slideshow';
+import URC2019 from '../json_files/URC/2019.json';
+import URC2018 from '../json_files/URC/2018.json';
+import URC2017 from '../json_files/URC/2017.json';
+
+
+function CreateURCYear({images, year}) {
+	return (
+		<div className={"year-container"}>
+			<p className={"year"}>{year}</p>
+			<Slideshow slides={images}/>
+		</div>
+	) 
+}
+
+function CreateURCYears({years}) {
+	let URC = years.map( (year, index) => {
+		return (
+			<CreateURCYear images={year.images} 
+						   year={year.team}
+						   key={index} />
+		)
+	});
+
+	return (
+		<div>
+			{URC}
+		</div>
+	)
+	
+}
 
 function URC() {
+	let URCyears = [
+		URC2019,
+		URC2018,
+		URC2017
+	];
+
 	return (
 		<div>
 			<NavBar />
@@ -25,6 +62,9 @@ function URC() {
 					aid human inhabitants of Mars. There are 4 tasks that each team must complete.
 					Extreme Delivery and Retrival, Equipment Servicing, Autonomuous Traversal, and a Science Mission. 
 				</p>
+			</div>
+			<div>
+				<CreateURCYears years={URCyears} />
 			</div>
 		</div>
 	)
