@@ -13,7 +13,7 @@ function Rovers() {
 	return (
 		<div>
 			<NavBar />
-			<div classList = "slideContainer">
+			<div className = "slideContainer">
 				{/* Use array as argument for component */}
 				<Slideshow slides={rover2021} /> 
 			</div>

@@ -1,10 +1,6 @@
 // Author: Justin Kim
 // Email: jcykim@csu.fullerton.edu
 
-
-// importing react router
-
-import { Link } from "react-router-dom";
 import {useState} from "react";
 
 // importing css
@@ -40,7 +36,7 @@ const Slideshow = ({slides}) => {
     
     return (
         <div className = "container">
-            <div class="slide">
+            <div className="slide">
                 <div style={styles.arrow} onClick={goLeft}>❮</div>
                 <img style = {styles.slide} src={process.env.PUBLIC_URL + `${slides[currentSlideIndex]}`} />
                 <div style={styles.arrow} onClick={goRight}>❯</div>
