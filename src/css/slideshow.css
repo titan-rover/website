@@ -7,3 +7,37 @@
     padding: 65px 80px;
     gap: 16px;
 }
+
+.slide-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 1.5rem;
+}
+.slide {
+    width: 90%;
+    max-width: 50vw;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: lightgrey;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+@media (max-width: 800px) {
+    .slide {
+        width: 100vw;
+    }
+}

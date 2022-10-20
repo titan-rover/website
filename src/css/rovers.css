@@ -1,11 +1,32 @@
+.year-container {
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
 
-.slideContainer {
-    width: 100vw;
-    height: 300px;
 }
 
-.slide {
+.slideshow-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.year {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+.year p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff8f00;
+}
+
+@media (max-width: 800px) {
+    .slideshow-container {
+        flex-direction: column;
+    }
+    .iframes{
+        width: 90%;
+    }
 }
