@@ -45,8 +45,10 @@
 
 #video {
 	/*border: 2px green solid;*/
+	display: block;
+	margin: 0 auto;
 	border: 0px;
-	width: 100%;
+	width: 75%;
 	background-color: black;
 }
 
