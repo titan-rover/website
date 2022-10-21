@@ -1,3 +1,4 @@
+
 html, body {
 	margin: 0px;
 }
@@ -37,3 +38,124 @@ html, body {
 	max-width: 14%;
 	height: auto;
 }
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+	#nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 2rem 0px;
+  }
+  .nav-bar-container {
+    flex-wrap: wrap;
+    display: flex; 
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap: 2rem;
+    margin-right: 20%;
+  }
+  .nav-bar-container a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+  
+  }
+  
+  .nav-bar-container a:hover{
+    color: #FF8F00;
+    transition-timing-function: ease-in;
+    transition-delay: 150ms;
+  }
+
+  #logo{
+    margin-left: 12%;
+    margin-right: 10%;
+    max-width: 14%;
+    height: auto;
+  }
+
+  
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 1rem 0px;
+  }
+  .nav-bar-container {
+    flex-wrap: wrap;
+    display: flex; 
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap: 1rem;
+    margin-right: 15%;
+	  }
+
+	}
+
+	/* For Mobile Portrait View */
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    #nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 1rem 0px;
+  }
+  .nav-bar-container {
+    flex-wrap: wrap;
+    display: flex; 
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap: 1rem;
+    margin-right: 15%;
+    }
+  }
+
+  /* For Mobile Landscape View */
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    #nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 1rem 0px;
+  }
+  .nav-bar-container {
+    flex-wrap: wrap;
+    display: flex; 
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap: 1rem;
+    margin-right: 15%;
+    }
+  }
+
+  /* For Iphone SE View */
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 1rem 0px;
+  }
+  .nav-bar-container {
+    flex-wrap: wrap;
+    display: flex; 
+    align-items: center;
+    /*justify-content: space-around;*/
+    gap: 1rem;
+    margin-right: 15%;
+  
+  }
+  
+}
+
+  /* For Iphone 6/7/8 View */ 
+  @media screen and (min-width: 375px) and (max-width: 667px) {
+    #nav-bar{
+    display: flex;
+    background-color: #212226;
+    padding: 1rem 0px;
+  }
+}
+
