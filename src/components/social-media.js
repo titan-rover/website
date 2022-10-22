@@ -7,7 +7,7 @@ function SocialMediaComponent() {
                 <img src={process.env.PUBLIC_URL + '/images/SocialMediaImages/CSUF_Titans_Logo.svg-300x300.png'}
                alt="" />
             </div>
-            <div>
+            <div id="social-images">
                 <a href="https://www.facebook.com/TitanRover/">
                     <img src={process.env.PUBLIC_URL + '/images/SocialMediaImages/FacebookLogo.png'}
                     className="images"alt="" />

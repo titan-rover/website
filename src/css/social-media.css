@@ -14,3 +14,9 @@
     align-items: center;
     justify-content: center;
 }
+#social-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
