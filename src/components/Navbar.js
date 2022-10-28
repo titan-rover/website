@@ -29,6 +29,10 @@ function NavBar() {
 					<a href="
 					https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">Donate To Titan Rover</a>
 				</div>
+				<input id="menu-toggle" type="checkbox" />
+               <label class='menu-button-container' for="menu-toggle">
+              <div class='menu-button'></div>
+            </label>
 			</nav>	
 			
 		</section>
