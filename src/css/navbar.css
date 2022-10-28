@@ -39,6 +39,64 @@ html, body {
 	height: auto;
 }
 
+/* for the hamburger menu */
+
+.nav-bar-container > :link {
+    margin: 0 1rem;
+    overflow: hidden;
+	display: hidden;
+  }
+
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+ .menu-button,
+ .menu-button::before,
+ .menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+ }
+ .menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
 	#nav-bar{
@@ -112,50 +170,43 @@ html, body {
     gap: 1rem;
     margin-right: 15%;
     }
-  }
 
-  /* For Mobile Landscape View */
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    #nav-bar{
-    display: flex;
-    background-color: #212226;
-    padding: 1rem 0px;
+	/* for the hamburger menu */
+	.menu-button-container {
+		display: flex;
+	  }
+	  .nav-bar-container {
+		position: absolute;
+		top: 0;
+		margin-top: 50px;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	  }
+	  #menu-toggle ~ .nav-bar-container li {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	  }
+	  #menu-toggle:checked ~ .nav-bar-container li {
+		border: 1px solid #333;
+		height: 2.5em;
+		padding: 0.5em;
+		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	  }
+	  .nav-bar-container > :link {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 0.5em 0;
+		width: 100%;
+		color: white;
+		background-color: #222;
+	  }
+	  .nav-bar-container > :link:not(:last-child) {
+		border-bottom: 1px solid #444;
+	  }
   }
-  .nav-bar-container {
-    flex-wrap: wrap;
-    display: flex; 
-    align-items: center;
-    /*justify-content: space-around;*/
-    gap: 1rem;
-    margin-right: 15%;
-    }
-  }
-
-  /* For Iphone SE View */
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    #nav-bar{
-    display: flex;
-    background-color: #212226;
-    padding: 1rem 0px;
-  }
-  .nav-bar-container {
-    flex-wrap: wrap;
-    display: flex; 
-    align-items: center;
-    /*justify-content: space-around;*/
-    gap: 1rem;
-    margin-right: 15%;
-  
-  }
-  
-}
-
-  /* For Iphone 6/7/8 View */ 
-  @media screen and (min-width: 375px) and (max-width: 667px) {
-    #nav-bar{
-    display: flex;
-    background-color: #212226;
-    padding: 1rem 0px;
-  }
-}
-
