@@ -1,76 +1,20 @@
 {
     "images": [
         {
+            "name": "Aluminum Precision Products",
+            "img": "Aluminumprecisionproducts.jpg"
+        },
+        {
             "name": "Freedcamp",
             "img": "Freedcamp-Logo-White-1-1024x256.jpg"
         },
         {
-            "name": "T-Rex",
-            "img": "test-300x119.png"
+            "name": "Super Rad Graphics",
+            "img": "Superradgraphics.png"
         },
         {
-            "name": "MiSUMi",
-            "img": "RGB_Main_Horizontal_RegisteredTrademark-01-1024x226.png"
-        },
-        {
-            "name": "SICK Sensor Intelligence",
-            "img": "1920px-Logo_SICK_AG_2009.svg-300x123.png"
-        },
-        {
-            "name": "Virgin Orbit",
-            "img": "virgin-orbit-light-logo-1.png"
-        },
-        {
-            "name": "Vivotek",
-            "img": "VIVOTEK-ENG-Logo-1024x259.png"
-        },
-        {
-            "name": "gecko",
-            "img": "gecko-1.1-1024x256.jpg"
-        },
-        {
-            "name": "Ocip",
-            "img": "ocip_final-1024x347.png"
-        },
-        {
-            "name": "Altium",
-            "img": "Altium®-2014-Logo_whiteOnBlack-2-e1520746640349.jpg"
-        },
-        {
-            "name": "Applied Motion Productions",
-            "img": "amp-logo-with-moons_-1-1024x329.png"
-        },
-        {
-            "name": "Anderson Power Productions",
-            "img": "Anderson-Power-Products-2.png"
-        },
-        {
-            "name": "Industrial Plastic Supply",
-            "img": "industrial-plastic-supply-inc-logo1-1.png"
-        },
-        {
-            "name": "General Sealants",
-            "img": "generalsealants-logo.png"
-        },
-        {
-            "name": "Rock West Composites",
-            "img": "rwc_logo_1.png"
-        },
-        {
-            "name": "Industrial Metal Supply",
-            "img": "industrialmetalsupplycologo.png"
-        },
-        {
-            "name": "Master Cam",
-            "img": "mastercam-300x163.png"
-        },
-        {
-            "name": "Mirco Python",
-            "img": "MicroPython_Logo-150x150.jpg"
-        },
-        {
-            "name": "California Shirtsmiths",
-            "img": "California-Shirtsmiths.png"
+            "name": "Protocase",
+            "img": "protocase-brand.png"
         }
     ]
 }
