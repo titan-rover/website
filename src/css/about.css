@@ -1,0 +1,68 @@
+.card {
+	background-color: #fb7620;
+}
+
+.card-title {
+	text-align: center;
+	padding: 0.5em 0.5em;
+	margin-bottom: 1.5em;
+}
+
+#about-container {
+	margin: 0 0;
+	background-color: black;
+	color: white;
+}
+
+#individual-card-container {
+	display: block;
+	margin-bottom: 2.5%;
+	width: 100%;
+}
+
+.card-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+}
+
+#card-text {
+	display: block;
+	/* 
+		width = 0 
+		to make the text not change the
+		container size. 
+	 	
+	 */
+	width: 0px;
+	/*
+		min-width = 100%
+		to make the text the size of the container
+	*/
+	min-width: 93%;
+	text-align: center;
+	font-size: 1.25em;
+
+}
+
+#card-img {
+	display: block;
+	width: 100%;
+
+}
+
+#card-container-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#grid-card-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 1fr;
+  align-items: start;
+}

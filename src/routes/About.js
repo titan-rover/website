@@ -5,37 +5,47 @@ import teams from '../json_files/about/teambreakdown.json';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+import '../css/about.css';
 
-function DisplayTeam({info}) {
+function CreateCard({info}) {
 	return (
-		<div>
-			<h2>{info.teamName}</h2>
-			<img src={process.env.PUBLIC_URL + "/images/about/" + info.img} alt={info.teamname} />
-			<p>{info.caption}</p>
+			<div id="card-container-wrapper">
+				<div id="individual-card-container">
+					<div className="card-title card">
+						<h2>{info.teamName}</h2>
+					</div>
+					<div className="card-content card">
+						<img src={process.env.PUBLIC_URL + info.img}
+							 alt={info.img} 
+							 id={"card-img"}
+							 />
+						<p id="card-text">{info.caption}</p>
+					</div>
+				</div>
 		</div>
 	)
 }
 
-function DisplayTeams({info}) {
-	let teams = info.map( (team, index) => {
+function CreateCards({info}) {
+	let cards = info.map( (team, index) => {
 		return (
-			<DisplayTeam info={team} key={index} />
+			<CreateCard info={team} key={team.teamName.toString()}/>
 		)
 	});
 
 	return (
-		<div>
-			{teams}
+		<div id="grid-card-container">
+			{cards}
 		</div>
 	)
 }
 
 function About() {
 	return (
-		<div>
+		<div id="about-container">
 			<NavBar />
 			<h1>Subteam Breakdown</h1>
-			<DisplayTeams info={teams.Teams} />
+			<CreateCards info={teams.Teams}/>
 			<Footer />
 		</div>
 
