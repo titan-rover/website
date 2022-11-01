@@ -1,3 +1,14 @@
+/*export const SliderData= [
+    {
+        title:"rovers21",
+        image:"https://i.ibb.co/87hG0bw/rovers21-1.png"
+        
+    },
+    {
+        title:'kronos1',
+        image:'https://i.ibb.co/df6f6nv/kronos1.jpg'
+    }
+]*/
 export const SliderData= [
     {
         title:'rovers22',
