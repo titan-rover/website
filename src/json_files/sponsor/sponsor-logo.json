@@ -15,6 +15,10 @@
         {
             "name": "Protocase",
             "img": "protocase-brand.png"
+        },
+        {
+            "name": "Altium",
+            "img": "Altium.jpg"
         }
     ]
 }
