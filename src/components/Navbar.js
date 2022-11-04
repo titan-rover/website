@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 // importing css
 import '../css/navbar.css';
+import 
 
 
 
@@ -28,10 +29,20 @@ function NavBar() {
 					<Link to="/Alumni">Alumni</Link>
 					<a href="
 					https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">Donate To Titan Rover</a>
+					class="icon" onclick={myFunction()}>
+   					<i class="fa fa-bars"></i>
+					   <script>
+					   function myFunction() {
+						 var x = document.getElementById("myTopnav");
+						 if (x.className === "topnav") {
+						   x.className += " responsive";
+						 } else {
+						   x.className = "topnav";
+						 }
+					   }
+					   </script>
+					   
 				</div>
-				<input id="menu-toggle" type="checkbox" />
-               <label class='menu-button-container' for="menu-toggle">
-              <div class='menu-button'></div>
             </label>
 			</nav>	
 			

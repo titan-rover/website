@@ -61,3 +61,18 @@
 	text-align: left;
 	font-size: 1.5rem;
 }
+
+.img-center {
+	display: flex;
+	justify-content: center;
+}
+
+/* ---------------- media queries --------------- */
+
+
+
+@media (max-width: 800px) {
+	.members-row {
+		flex-direction: column;
+	}
+}

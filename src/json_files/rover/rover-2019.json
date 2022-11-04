@@ -1,0 +1,13 @@
+{ 
+    "images": [ 
+        "/images/rovers/2019/rover-1.jpg",
+        "/images/rovers/2019/rover-2.jpg",
+        "/images/rovers/2019/rover-3.jpg",
+        "/images/rovers/2019/rover-4.jpg",
+        "/images/rovers/2019/rover-5.jpg"
+
+    ],
+    "video": "https://www.youtube.com/embed/651cYTdnFjM",
+    "team": "Odyssey-2019"
+
+}

@@ -136,10 +136,6 @@ html, body {
   
   }
    
-  /* for all
-  @media screen (max-width: 800px) {
-
-   } */
 
   /* For Tablet View */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -184,41 +180,5 @@ html, body {
 
 
 	/* for the hamburger menu */
-	.menu-button-container {
-		display: flex;
-	  }
-	  .nav-bar-container {
-		position: absolute;
-		top: 0;
-		margin-top: 50px;
-		left: 0;
-		flex-direction: column;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-	  }
-	  #menu-toggle ~ .nav-bar-container :link {
-		height: 0;
-		margin: 0;
-		padding: 0;
-		border: 0;
-	  }
-	  #menu-toggle:checked ~ .nav-bar-container :link {
-		border: 1px solid #333;
-		height: 2.5em;
-		padding: 0.5em;
-		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-	  }
-	  .nav-bar-container > :link {
-		display: flex;
-		justify-content: center;
-		margin: 0;
-		padding: 0.5em 0;
-		width: 100%;
-		color: white;
-		background-color: #222;
-	  }
-	  .nav-bar-container > :link:not(:last-child) {
-		border-bottom: 1px solid #444;
-	  }
-  }
+	
+	

@@ -1,0 +1,10 @@
+{ 
+    "images": [ 
+        "/images/rovers/2018/rover-1.png",
+        "/images/rovers/2018/rover-2.png"
+
+    ],
+    "video": "https://www.youtube.com/embed/YciYnQZLXv0",
+    "team": "Calypso-2018"
+
+}

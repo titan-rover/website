@@ -12,6 +12,9 @@ import alumnis2014 from '../json_files/alumni/alumni-2014.json';
 // importing nav bar
 import NavBar from '../components/Navbar';
 
+import Footer from '../components/Footer';
+
+
 // importing css
 import '../css/alumni.css';
 
@@ -145,7 +148,8 @@ function Alumni() {
       <NavBar />
       <h1 className="alumni-header">Meet the team</h1>
       <GenerateYears yearList={alumniList} />
-    {/* footer goes here */}
+      
+      <Footer />
     </div>
   );
 }
