@@ -1,16 +1,15 @@
 { 
     "images": [ 
-        "/images/rovers/2017/rover-1.jpg",
-        "/images/rovers/2017/rover-2.jpg",
-        "/images/rovers/2017/rover-3.jpg",
-        "/images/rovers/2017/rover-4.jpg",
-        "/images/rovers/2017/rover-5.jpg",
-        "/images/rovers/2017/rover-6.jpg",
-        "/images/rovers/2017/rover-7.jpg",
-        "/images/rovers/2017/rover-8.jpg",
-        "/images/rovers/2017/rover-9.jpg",
-        "/images/rovers/2017/rover-10.jpg",
-        "/images/rovers/2017/rover-11.jpg"
+        "/images/rovers/2017/rover-1.png",
+        "/images/rovers/2017/rover-3.png",
+        "/images/rovers/2017/rover-4.png",
+        "/images/rovers/2017/rover-5.png",
+        "/images/rovers/2017/rover-6.png",
+        "/images/rovers/2017/rover-7.png",
+        "/images/rovers/2017/rover-8.png",
+        "/images/rovers/2017/rover-9.png",
+        "/images/rovers/2017/rover-10.png",
+        "/images/rovers/2017/rover-11.png"
     ],
     "video": "https://www.youtube.com/embed/lTSlg9nDbzU",
     "team": "Atlas-2017"
