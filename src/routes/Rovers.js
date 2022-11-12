@@ -28,8 +28,8 @@ function CreateYear({images, video, team}) {
 						video &&
 						<div className="slideshow-container-col">
 							<iframe className={"iframes"}
-									width="560" 
-									height="315" 
+									width="756" 
+									height="450" 
 									src={video} 
 									title="YouTube video player" 
 									frameBorder="0" 

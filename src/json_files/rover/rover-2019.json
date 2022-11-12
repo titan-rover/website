@@ -1,10 +1,10 @@
 { 
     "images": [ 
-        "/images/rovers/2019/rover-1.jpg",
-        "/images/rovers/2019/rover-2.jpg",
-        "/images/rovers/2019/rover-3.jpg",
-        "/images/rovers/2019/rover-4.jpg",
-        "/images/rovers/2019/rover-5.jpg"
+        "/images/rovers/2019/rover-1.png",
+        "/images/rovers/2019/rover-2.png",
+        "/images/rovers/2019/rover-3.png",
+        "/images/rovers/2019/rover-4.png",
+        "/images/rovers/2019/rover-5.png"
 
     ],
     "video": "https://www.youtube.com/embed/651cYTdnFjM",
