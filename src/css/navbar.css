@@ -1,3 +1,4 @@
+
 html, body {
 	margin: 0px;
 }
@@ -5,20 +6,43 @@ html, body {
 
 
 #nav-bar{
+  position: relative;
+   height: 50px;
+  width: 100%;
 	display: flex;
+  align-items: center;
 	background-color: #212226;
-	padding: 1rem 0px;
+	padding: 0.5rem 0rem;
 }
-.nav-bar-container {
-	flex-wrap: wrap;
-	display: flex; 
+.nav-bar-container {	
+margin-left: auto;
+}
+
+.nav-bar-container ul{
+  flex-wrap: wrap;
 	align-items: center;
-	/*justify-content: space-around;*/
+	justify-content: space-around;
 	gap: 1rem;
-	margin-right: 15%;
+  display: flex;
+  padding: 0;
+
+}
+
+.nav-bar-container li {
+
+  list-style-type: none;
+  margin: 0 1rem;
+
+}
+
+.nav-bar-container li a {
+  
+  text-decoration: none;
+  display: block;
+  width: 100%;
 }
 .nav-bar-container a {
-	color: white;
+
 	font-weight: bold;
 	font-size: 0.95rem;
 	text-decoration: none;
@@ -36,4 +60,93 @@ html, body {
 	margin-right: 10%;
 	max-width: 14%;
 	height: auto;
+}
+
+/* for the hamburger menu */
+
+/* For Desktop View */
+
+  
+
+
+  .hamburger {
+
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+	
+
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar-container ul {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar-container ul {
+   
+    position: absolute;
+    top: 60px;
+    right: 0;
+    flex-direction: column;
+
+    width: 30%;
+    height: calc(100vh - 40vh);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .nav-bar-container li {
+    
+    text-align: center;
+    margin: 0;
+  }
+  .nav-bar-container li a {
+    color: black;
+    
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .nav-bar-container li:hover {
+    background-color: #eee;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar-container ul {
+    
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-bar-container.expanded ul {
+    display: block;
+  }
 }
