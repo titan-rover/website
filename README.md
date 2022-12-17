@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# 2022-3_Rover_Code_Base
-This is the code base for the 2022-2023 competition year
+# Titan Rover Website
 =======
 # Getting Started with Create React App
 
@@ -72,4 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> react-development
