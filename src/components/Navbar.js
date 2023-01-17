@@ -1,18 +1,15 @@
 // Author: Khang Pham
 // Email: khangpham9999@csu.fullerton.edu
 
-
-// importing react router
-
-import { Link } from "react-router-dom";
-
 // importing css
 import '../css/navbar.css';
 
+import { NavBar, Nav } from 'react-bootstrap';
+
+import { LinkContainer } from 'react-router-bootstrap';
 
 
-
-function NavBar() {
+function NavigationBar() {
 	return (
 		<section>
 			<nav id="nav-bar">
@@ -25,12 +22,24 @@ function NavBar() {
 				<div className="nav-bar-outside-container">
 					<div className="nav-bar-inside-container">
 						<div className="nav-bar-container">
-							<Link to="/">Homepage</Link>
-							<Link to="/About">About</Link>
-							<Link to="/URC">URC</Link>
-							<Link to="/Rovers">Rovers</Link>
-							<Link to="/Sponsors">Sponsors</Link>
-							<Link to="/Alumni">Alumni</Link>
+							<LinkContainer to="/" >
+								<Nav.Link>Homepage</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/About">
+								<Nav.Link>About</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/URC">
+								<Nav.Link>URC</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Rovers">
+								<Nav.Link>Rovers</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Sponsors">
+								<Nav.Link>Sponsors</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Alumni">
+								<Nav.Link>Alumni</Nav.Link>
+							</LinkContainer>
 							<a href="
 							https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">Donate To Titan Rover</a>
 						</div>
@@ -48,4 +57,4 @@ function NavBar() {
 	)
 }
 
-export default NavBar;
+export default NavigationBar;

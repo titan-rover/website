@@ -2,7 +2,7 @@
 // Email: khangpham@csu.fullerton.edu
 
 import teams from '../json_files/about/teambreakdown.json';
-import NavBar from '../components/Navbar';
+import NavigationBar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 import '../css/about.css';
@@ -43,7 +43,7 @@ function CreateCards({info}) {
 function About() {
 	return (
 		<div id="about-container">
-			<NavBar />
+			<NavigationBar />
 			<h1>Subteam Breakdown</h1>
 			<CreateCards info={teams.Teams}/>
 			<Footer />

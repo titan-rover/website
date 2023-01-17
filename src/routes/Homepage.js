@@ -1,4 +1,4 @@
-import NavBar from '../components/Navbar';
+import NavigationBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../css/homepage.css'
 
@@ -7,7 +7,7 @@ function Homepage() {
 
   return (
     <div id="homepage">
-      <NavBar />
+      <NavigationBar />
       <section className="content">
         <div className="content-container">
           <img src={process.env.PUBLIC_URL + '/images/URC/URClogo.jpg'}

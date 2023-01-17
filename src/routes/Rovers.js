@@ -1,6 +1,6 @@
 // Author: Khang Pham, Justin Kim
 // Email: khangpham@csu.fullerton.edu, jcykim@csu.fullerton.edu
-import NavBar from '../components/Navbar';
+import NavigationBar from '../components/Navbar';
 import Slideshow from '../components/Slideshow';
 import Footer from '../components/Footer';
 
@@ -83,7 +83,7 @@ function Rovers() {
 
 	return (
 		<div>
-			<NavBar />
+			<NavigationBar />
 			<CreateYears years={years}/>
 			<Footer />
 		</div>
