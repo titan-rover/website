@@ -9,17 +9,17 @@ import '../css/about.css';
 
 function CreateCard({info}) {
 	return (
-			<div id="card-container-wrapper">
+			<div id="about-card-container-wrapper">
 				<div id="individual-card-container">
-					<div className="card-title card">
+					<div className="about-card-title about-card">
 						<h2>{info.teamName}</h2>
 					</div>
-					<div className="card-content card">
+					<div className="about-card-content about-card">
 						<img src={process.env.PUBLIC_URL + info.img}
 							 alt={info.img} 
-							 id={"card-img"}
+							 id={"about-card-img"}
 							 />
-						<p id="card-text">{info.caption}</p>
+						<p id="about-card-text">{info.caption}</p>
 					</div>
 				</div>
 		</div>

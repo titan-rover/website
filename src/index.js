@@ -8,6 +8,7 @@ import URC from './routes/URC';
 import Rovers from './routes/Rovers'
 import Sponsors from './routes/Sponsors';
 import Alumni from './routes/Alumni';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
