@@ -16,38 +16,45 @@ function NavigationBar() {
 
 				<Container>
 					<Navbar.Brand>
-						{/* <img id="logo" */}
-						{/* 	 src={process.env.PUBLIC_URL +  */}
-						{/* 		 '/images/nav-bar-img.png'} alt="" /> */}
-						{/*  */}
+						<div>
+							<img id="logo"
+								 src={process.env.PUBLIC_URL + 
+									 '/images/nav-bar-img.png'}
+								 alt=""
+								 width="200"
+								 className="d-inline-block align-top" />
+							
+						</div>
+						
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Nav className="me-auto">
-				
-						<LinkContainer to="/" >
-							<Nav.Link>Homepage</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/About">
-							<Nav.Link>About</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/URC">
-							<Nav.Link>URC</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/Rovers">
-							<Nav.Link>Rovers</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/Sponsors">
-							<Nav.Link>Sponsors</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/Alumni">
-							<Nav.Link>Alumni</Nav.Link>
-						</LinkContainer>
-						<Nav.Link href="https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">
-							Donate To Titan Rover
-						</Nav.Link>
-						
-					</Nav>
+			        <Navbar.Collapse id="basic-navbar-nav">
+						<Nav className="me-auto">
 					
+							<LinkContainer to="/" >
+								<Nav.Link>Homepage</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/About">
+								<Nav.Link>About</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/URC">
+								<Nav.Link>URC</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Rovers">
+								<Nav.Link>Rovers</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Sponsors">
+								<Nav.Link>Sponsors</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Alumni">
+								<Nav.Link>Alumni</Nav.Link>
+							</LinkContainer>
+							<Nav.Link href="https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">
+								Donate To Titan Rover
+							</Nav.Link>
+							
+						</Nav>
+					</Navbar.Collapse>
 				</Container>
 
 			</Navbar>	
