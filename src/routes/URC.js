@@ -1,7 +1,7 @@
 // Author: Khang Pham
 // Email: khangpham@csu.fullerton.edu
 
-import NavBar from '../components/Navbar';
+import NavigationBar from '../components/Navbar';
 import Slideshow from '../components/Slideshow';
 import Footer from '../components/Footer';
 import URC2019 from '../json_files/URC/2019.json';
@@ -46,7 +46,7 @@ function URC() {
 
 	return (
 		<div>
-			<NavBar />
+			<NavigationBar />
 			<div>
 				<img src={process.env.PUBLIC_URL + "/images/URC/URC-img.jpg"} 
 					 alt="" 

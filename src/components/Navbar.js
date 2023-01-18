@@ -1,38 +1,66 @@
 // Author: Khang Pham
 // Email: khangpham9999@csu.fullerton.edu
 
-
-// importing react router
-
-import { Link } from "react-router-dom";
-
 // importing css
 import '../css/navbar.css';
 
+import { Navbar, Nav, Container } from 'react-bootstrap';
+
+import { LinkContainer } from 'react-router-bootstrap';
 
 
-
-function NavBar() {
+function NavigationBar() {
 	return (
 		<section>
-			<nav id="nav-bar">
-				<img id="logo"
-					 src={process.env.PUBLIC_URL + 
-						 '/images/nav-bar-img.png'} alt="" />
-				<div className="nav-bar-container">
-					<Link to="/">Homepage</Link>
-					<Link to="/About">About</Link>
-					<Link to="/URC">URC</Link>
-					<Link to="/Rovers">Rovers</Link>
-					<Link to="/Sponsors">Sponsors</Link>
-					<Link to="/Alumni">Alumni</Link>
-					<a href="
-					https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">Donate To Titan Rover</a>
-				</div>
-			</nav>	
+			<Navbar bg="dark" variant="dark" expand="lg">
+
+				<Container>
+					<Navbar.Brand>
+						<div>
+							<img id="logo"
+								 src={process.env.PUBLIC_URL + 
+									 '/images/nav-bar-img.png'}
+								 alt=""
+								 width="200"
+								 className="d-inline-block align-top" />
+							
+						</div>
+						
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			        <Navbar.Collapse id="basic-navbar-nav">
+						<Nav className="me-auto">
+					
+							<LinkContainer to="/" >
+								<Nav.Link>Homepage</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/About">
+								<Nav.Link>About</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/URC">
+								<Nav.Link>URC</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Rovers">
+								<Nav.Link>Rovers</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Sponsors">
+								<Nav.Link>Sponsors</Nav.Link>
+							</LinkContainer>
+							<LinkContainer to="/Alumni">
+								<Nav.Link>Alumni</Nav.Link>
+							</LinkContainer>
+							<Nav.Link href="https://give.fullerton.edu/donate?fid=z2C7%2bB5psrQ%3d&fdesc=CTsbnwTiVZ1TMmzXJGGkBA%3d%3d&fundID=095008-4048&source=21WWG">
+								Donate To Titan Rover
+							</Nav.Link>
+							
+						</Nav>
+					</Navbar.Collapse>
+				</Container>
+
+			</Navbar>	
 			
 		</section>
 	)
 }
 
-export default NavBar;
+export default NavigationBar;
