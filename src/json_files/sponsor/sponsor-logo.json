@@ -1,0 +1,24 @@
+{
+    "images": [
+        {
+            "name": "Aluminum Precision Products",
+            "img": "altiumpp.png"
+        },
+        {
+            "name": "Freedcamp",
+            "img": "Freedcamp-Logo-White-1-1024x256.jpg"
+        },
+        {
+            "name": "Super Rad Graphics",
+            "img": "Superradgraphics.png"
+        },
+        {
+            "name": "Protocase",
+            "img": "protocase-brand.png"
+        },
+        {
+            "name": "Altium",
+            "img": "Altium.jpg"
+        }
+    ]
+}

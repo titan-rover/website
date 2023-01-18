@@ -1,8 +1,5 @@
-// Author: Khang Pham
-// Email: khangpham9999@csu.fullerton.edu
-
-import NavBar from '../components/Navbar';
-
+import NavigationBar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../css/homepage.css'
 
 
@@ -10,10 +7,10 @@ function Homepage() {
 
   return (
     <div id="homepage">
-      <NavBar />
+      <NavigationBar />
       <section className="content">
         <div className="content-container">
-          <img src={process.env.PUBLIC_URL + '/images/URClogo.jpg'}
+          <img src={process.env.PUBLIC_URL + '/images/URC/URClogo.jpg'}
                alt="" />
         </div>
         <div className="content-text">
@@ -31,6 +28,7 @@ function Homepage() {
             knowledge by experiential learning while inspiring newer generations about STEM. Being in Titan Rover gives the opportunity for members to better themselves and their skill sets by working together to make a rover intended to compete at the Mars Society’s University Rover Challenge.</h2>
         </div>
 
+      <Footer />
       </section>
     </div>
   );

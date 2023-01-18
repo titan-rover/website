@@ -1,0 +1,29 @@
+{
+	"Teams": [
+		{
+			"teamName": "Mechanical",
+			"img": "/images/about/mech-about.jpeg",
+			"caption": "The team responsible for building the framework of the rover. Students in this subteam design, improve, and manufacture components for the science assay, robotic arm, chassis, and drivetrain."
+		},
+		{
+			"teamName": "Electrical",
+			"img": "/images/about/elec-about.jpeg",
+			"caption": "An essential component to bringing our rover to life. This subteam has electrical and computer engineers that create custom printed circuit boards (PCBs), ensure wire management, and experiment with potential electrical components to include to our rover."
+		},
+		{
+			"teamName": "Controls",
+			"img": "/images/about/control-about.jpeg",
+			"caption": "The most crucial subteam of our organization. Both computer scientists and engineers are responsible for programming the rover’s autonomous AR tag algorithm, base antenna, wheels, and automated processes of the on-board science assay"
+		},
+		{
+			"teamName": "Business",
+			"img": "/images/about/business-about.jpg",
+			"caption": "Our business team is comprised of students from our Mihaylo College of Business and Economics. This subteam aids in tracking the team’s expenditure, marketing, and finding company sponsors."
+		},
+		{
+			"teamName": "Life Sciences",
+			"img": "/images/about/science-about.jpeg",
+			"caption" : "The life science team is made of students with a background of biology, chemistry, and geology. This team is essential to help our mechanical team understand how to carry out life-detection tests through protein extraction, spectroscopy, analysis of rocks, and more."
+		}
+	]
+}
