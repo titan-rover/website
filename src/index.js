@@ -12,10 +12,20 @@ import Sponsors from './routes/Sponsors';
 import Alumni from './routes/Alumni';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
 
-import App  from './App'
-
-ReactDOM.createRoot( 
-  document.querySelector('#root')
-).render(<App />)
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="About" element={<About />}/>
+        <Route path="URC" element={<URC />}/>
+        <Route path="Rovers" element={<Rovers />}/>
+        <Route path="Sponsors" element={<Sponsors />} />
+        <Route path="Alumni" element={<Alumni />} />
+      </Routes>
+    </HashRouter>
+  </React.StrictMode>
+);
 
