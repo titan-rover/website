@@ -19,6 +19,10 @@ const Slideshow = ({slides}) => {
         const newIndex = currentSlideIndex === slides.length - 1 ? 0 : currentSlideIndex + 1;
         setSlideIndex(newIndex);
     }
+
+    const goToSlide = (slideIndex) => {
+        currentSlideIndex(slideIndex);
+    };
     
     const left_arrow = <div className={"arrow left"} onClick={goLeft}>❮</div>;
     const right_arrow = <div className={"arrow right"} onClick={goRight}>❯</div>
@@ -33,9 +37,14 @@ const Slideshow = ({slides}) => {
             />
             {
                 slides.length > 1 && right_arrow
-            }    
+            } 
+
+            <div className="dotsContainerStyles">
+                {slides.map((slide, slideIndex) => (
+                    <div className="dotStyles" key={slideIndex} onClick={() => goToSlide(slideIndex)}>⬤</div>
+            ))}
+        </div>   
         </div>
-            
             
     )
 }
