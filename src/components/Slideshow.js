@@ -21,29 +21,32 @@ const Slideshow = ({slides}) => {
     }
 
     const goToSlide = (slideIndex) => {
-        currentSlideIndex(slideIndex);
+        setSlideIndex(slideIndex);
     };
     
     const left_arrow = <div className={"arrow left"} onClick={goLeft}>❮</div>;
     const right_arrow = <div className={"arrow right"} onClick={goRight}>❯</div>
     return (
         <div className="slide-container">
-
-            {
-                slides.length > 1 && left_arrow
-            }
-            <img className={"slide"} src={process.env.PUBLIC_URL + `${slides[currentSlideIndex]}`}
-                 alt={"slide" + currentSlideIndex}
-            />
-            {
-                slides.length > 1 && right_arrow
-            } 
-
-            <div className="dotsContainerStyles">
-                {slides.map((slide, slideIndex) => (
-                    <div className="dotStyles" key={slideIndex} onClick={() => goToSlide(slideIndex)}>⬤</div>
-            ))}
-        </div>   
+            <div>
+                {
+                    slides.length > 1 && left_arrow
+                }
+                <img className={"slide"} src={process.env.PUBLIC_URL + `${slides[currentSlideIndex]}`}
+                    alt={"slide" + currentSlideIndex}
+                />
+                {
+                    slides.length > 1 && right_arrow
+                } 
+            
+                    <div className="dotsContainerStyles">
+                    {slides.map((slide, slideIndex) => (
+                        <div className="dotStyles" key={slideIndex} onClick={() => goToSlide(slideIndex)}>⬤</div>
+                ))}
+                </div>
+            </div>
+            
+              
         </div>
             
     )
