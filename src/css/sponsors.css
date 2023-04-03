@@ -18,12 +18,29 @@
 .sponsors-header {
 	width: 100%;
 	display: grid;
-	grid-template-columns: 20% 20% 20%;
+	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	justify-items: center;
 	align-items: center;
 	row-gap: 5px;
 	column-gap: 10px;
+}
+
+
+@media (max-width: 1400px) {
+
+	.sponsors-header {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+}
+
+@media (max-width: 900px) {
+
+	.sponsors-header {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
 }
 
 .orange {
