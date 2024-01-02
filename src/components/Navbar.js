@@ -12,7 +12,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 function NavigationBar() {
 	return (
 		<section>
-			<Navbar bg="dark" variant="dark" expand="lg">
+			<Navbar bg="dark" variant="dark" expand="lg" class="">
 
 				<Container>
 					<Navbar.Brand>
@@ -21,7 +21,7 @@ function NavigationBar() {
 								 src={process.env.PUBLIC_URL + 
 									 '/images/nav-bar-img.png'}
 								 alt=""
-								 width="200"
+								 width="100"
 								 className="d-inline-block align-top" />
 							
 						</div>

@@ -49,4 +49,9 @@
 	width: 100%;
 	background-color: black;
 }
-
+.university {
+	font-size: 8rem;
+	color: #ea7244;
+	margin: 0px;
+	font-weight: bold;
+}
