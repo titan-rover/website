@@ -30,6 +30,9 @@ function GenerateColumn({alumni}) {
     });
   return (
     <div className="members-col">
+    <div className="img-center">
+        <img src={process.env.PUBLIC_URL +"/public/images/members/" + alumni.img} alt={alumni.name} />
+    </div>
       <p>{alumni.name}</p>
       <ul className="center">{information}</ul>
       
