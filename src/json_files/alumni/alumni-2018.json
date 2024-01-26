@@ -1,0 +1,142 @@
+{
+	"year": "2018-2019",
+	"image": "2018-2019-team.jpg",
+	"members" : [
+		{
+			"name": "Louis Vest",
+			"img": "2018-2019/Louis-Vest.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "President/Project Lead"
+			]
+		},
+		{
+			"name": "Timothy Parks",
+			"img": "2018-2019/Timothy-Parks.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2019",
+			    "Controls Lead"
+			]
+		},
+		{
+			"name": "Nguyen Nguyen",
+			"img": "2018-2019/Nguyen-Nguyen.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "Mechanical Design Lead"
+			]
+		},
+		{
+			"name": "William Vincent",
+			"img": "2018-2019/William-Vincent.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "Science Engineering Lead"
+			]
+		},
+		{
+			"name": "Mario Castillo",
+			"img": "2018-2019/Mario-Castillo-2019.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+				"Minor: Business",
+			    "Class of 2020",
+			    "Business Lead"
+			]
+		},
+		{
+			"name": "Andrew Simko",
+			"img": "2018-2019/Andrew-Simko.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "Drivetrain Lead"
+			]
+		},
+		{
+			"name": "Varun Sharma",
+			"img": "2018-2019/Varun-Sharma.jpg",
+			"bulletpoints": [
+				"Major: Graduate Computer Scientist",
+			    "Class of 2019",
+			    "Autonomous Lead"
+			]
+		},
+		{
+			"name": "Shripal Rawal",
+			"img": "2018-2019/Shripal-Rawal.jpg",
+			"bulletpoints": [
+				"Major: Graduate Computer Scientist",
+			    "Class of 2019",
+			    "Mobility Lead"
+			]
+		},
+		{
+			"name": "Luis Toledo",
+			"img": "2018-2019/Luis-Toledo.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Electrical Lead"
+			]
+		},
+				{
+			"name": "Luis Toledo",
+			"img": "2018-2019/Luis-Toledo.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Electrical Lead"
+			]
+		},		
+		{
+			"name": "Aaron Fernandez",
+			"img": "2018-2019/Aaron-Fernandez.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Chassis/Manufacturing Lead"
+			]
+		},
+		{
+			"name": "Georden Grabuskie",
+			"img": "2018-2019/Georden-Grabuskie.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2019",
+			    "Communications Lead"
+			]
+		}
+	],
+	"honorable_members": [
+		{
+			"name": "Bryant Chau",
+			"img": "2018-2019/Bryant-Chau.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "Machinist, Mechanical Science Secondary Lead"
+			]
+		},
+		{
+			"name": "Oscar-Sanchez",
+			"img": "2018-2019/Oscar-Sanchez.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Class of 2019",
+			    "Electrical Subteam member"
+			]
+		},
+		{
+			"name": "Lance Shuler",
+			"img": "2018-2019/Lance-Shuler.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineer",
+			    "Class of 2019",
+			    "Mobility & Mechanical Science Subteam Member"
+			]
+		}
+	],
+	"caption": "Group photo inside the TSU"
+}

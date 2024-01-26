@@ -1,0 +1,42 @@
+.year-container {
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+}
+.year p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff8f00;
+}
+.slideshow-container-col {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .slideshow-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .iframes{
+        width: 90%;
+    }
+    .slideshow-container-col {
+        width: 100vw;
+    }
+}

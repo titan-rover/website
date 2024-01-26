@@ -1,0 +1,108 @@
+{
+	"year": "2016-2017",
+	"image": "2016-2017-team.jpg",
+	"members": [
+		{
+			"name": "Erik Holgersen",
+			"img": "2016-2017/Erik-Holgersen.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "President/Project Lead"
+			]
+		},
+		{
+			"name": "Nicholas Feenstra",
+			"img": "2016-2017/Nicholas-Feenstra.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "Mechanical Lead"
+			]
+		},
+		{
+			"name": " Justin Stewart",
+			"img": "2016-2017/Justin-Stewart.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2017",
+			    "Controls Lead/Vice President"
+			]
+		},
+		{
+			"name": "Andrew Huniu",
+			"img": "2016-2017/Andrew-Huniu.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Systems Integrator"
+			]
+		},
+		{
+			"name": "Priscilla Mewborne",
+			"img": "2016-2017/Priscilla-Mewborne.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "Suspension Lead"
+			]
+		},
+		{
+			"name": "Jeff Rizo",
+			"img": "2016-2017/Jeff-Rizo.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "Composites Lead"
+			]
+		}
+
+	],
+	"honorable_members": [
+		{
+			"name": "Joseph Porter",
+			"img": "2016-2017/Joseph-Porter.jpg",
+			"bulletpoints": [
+				"Major: Computer Science",
+			    "Class of 2017",
+			    "Controls Subteam Member"
+			]
+		},
+		{
+			"name": "Mario Cristales",
+			"img": "2016-2017/Mario-Cristales.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2017",
+			    "President/Project Lead"
+			]
+		},
+		{
+			"name": "Luis Landy",
+			"img": "2016-2017/Luis-Landy.jpg",
+			"bulletpoints": [
+				"Major: Electrical Engineering",
+			    "Class of 2018",
+			    "Electrical Subteam Member"
+			]
+		},
+		{
+			"name": "Justin McGregor",
+			"img": "2016-2017/Justin-McGregor.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Mechanical Subteam Member"
+			]
+		},
+		{
+			"name": "Oscar Sanchez",
+			"img": "2016-2017/Oscar-Sanchez.jpg",
+			"bulletpoints": [
+				"Major: Mechanical Engineering",
+			    "Class of 2018",
+			    "Electrical Subteam Member"
+			]
+		}
+	],
+	"caption": "The team winning best in college during the Engineering and Computer Science Showcase"
+}

@@ -1,0 +1,33 @@
+.image {
+	width: 100vw;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.header{
+	color: #f68f03;
+}
+
+.information-content{
+	line-height: 1.8rem;
+	margin: 0% 10%;	
+}
+
+.year-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.year {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #ff8f00;
+}
